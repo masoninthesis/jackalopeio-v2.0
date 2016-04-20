@@ -8,7 +8,7 @@ vault_sudoer_passwords:
 # Variables to accompany `group_vars/staging/wordpress_sites.yml`
 # Note: the site name (`example.com`) must match up with the site name in the above file.
 vault_wordpress_sites:
-  jacklope.io:
+  jackalope.io:
     env:
       db_password: jackalope_dbpassword
       # Generate your keys here: https://roots.io/salts.html
